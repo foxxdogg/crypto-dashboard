@@ -6,8 +6,8 @@ import Header from './components/header';
 import Workspace from './components/workspace/Workspace';
 import { useEffect } from 'react';
 import { useAppSelector } from './app/hooks';
+import { Dashboard } from './features/dashboard/Dashboard';
 
-const Dashboard = () => <div className="dark:text-white">Dashboard</div>;
 const Portfolio = () => <div className="dark:text-white">Portfolio</div>;
 const Favorites = () => <div className="dark:text-white">Favorites</div>;
 
